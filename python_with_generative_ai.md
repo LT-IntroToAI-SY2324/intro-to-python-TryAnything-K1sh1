@@ -1,4 +1,4 @@
-### Learn Python with generative AI
+<!-- ### Learn Python with generative AI
 The idea of this portion is that you will be coming up with your own practice questions that are tailored to your level of programming experience.  
 
 Go to ChatGPT, or any other generative AI and type in a prompt like this:
@@ -185,4 +185,6 @@ ChatGPT can tailor indidual assignments to you and can help you through those so
 
 ## Complete a few more of the practice questions that you received from ChatGPT
 
-In the `a1_ai_problems.py` file, complete a few more of the problems that ChatGPT gave you.  Once you have completed them, make sure to answer the reflection questions in the writeup.
+In the `a1_ai_problems.py` file, complete a few more of the problems that ChatGPT gave you.  Once you have completed them, make sure to answer the reflection questions in the writeup. -->
+
+
