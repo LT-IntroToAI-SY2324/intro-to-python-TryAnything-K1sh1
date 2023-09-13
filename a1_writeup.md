@@ -14,10 +14,12 @@ Mr. Berg will look at all your files to determine what you have completed.  If t
 
 1. What is your initial thoughts about the python programming language?
 
-
+My initial thought is that it is fun but hard to learn and has a lor of pre installed functions that are really helpful
 
 2. Describe some similarities and differences that you found between python and other programming languages you have used in the past?
 
-
+it is different in the sense that you do not have to put var in from of each variable but it is similar in the sense that you do not have to tell the computer whather each variable is a string or integer, it has similar things like for loops, lists, function and so on but it is different in the sense that the wordings might be slightly different or the way uou have to make them differ.
 
 3. What are some things that you learned through this assignment?
+
+that working with chatgpt in a clas like this is really helpful and there is almost no way to remeber so you will most likely have to search things up even if you have a carrer

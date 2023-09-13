@@ -12,14 +12,39 @@
 # else:
 #     print("this word is not the same forward and backward")
 
-num1 = input("give me a number: ")
+def anagram(word1,word2):
+    lowered1 = word1.lower()
+    print(lowered1)
+    lowered2 = word2.lower()
+    print(lowered2)
+    list1 = [char for char in lowered1]
+    print(list1)
+    list2 = [char for char in lowered2]
+    print(list2)
+    if len(list1) == len(list2):
+        dict1 = {}
+        dict2 = {}
+        for char in list1:
+            if char in dict1:
+                dict1[char] += 1
+            else:
+                dict1[char] = 1
+        for char in list2:
+            if char in dict2:
+                dict2[char] += 1
+            else:
+                dict2[char] = 1
+        print(dict1)
+        print(dict2)
+        if set(dict1.keys()) != set(dict2.keys()):
+            print("noshot")
+        else:
+            for key in dict1.keys():
+                if dict1[key] != dict2[key]:
+                    print("noshot")
+                else:
+                    print("these are angrams")
+    else:
+        print("no shot")
 
-def factorial(num1):
-    for number in range(int(num1)):
-        if number != num1:
-            num2 = int(num1) * (int(num1)-number)
-            num1 = num2
-            print(num1)
-
-factorial(num1)
-
+anagram("apple","pplea")

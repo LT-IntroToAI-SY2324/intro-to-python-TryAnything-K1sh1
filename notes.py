@@ -130,4 +130,17 @@ print(f"Mary is {age} years old") # to add variables with text when you want to 
 # word = Animal
 # reverseWord = word[::-1]
 
+#to change all the characters of a string into lowercased you just make a different variable equal to the first variable. lower(). ex
+
+# word1 = "apple"
+# word2 = word1.lower
+
+# to make every letter in a word become a charater in a list you just make another variable = [char for char in "the varibale name for
+# the word you want to turn into a list"]. ex
+
+# word1 = "apple"
+# list1 = [char for char in word1]
+
+
+
 
